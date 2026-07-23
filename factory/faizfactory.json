@@ -1,0 +1,15 @@
+{
+	"name": "faizfactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e234ea2e-adeb-4f0b-8e82-4199a2818270",
+		"tenantId": "61069002-c4b0-4b68-ad64-742c18215d98"
+	}
+}
