@@ -1,0 +1,17 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "faizkhanproject.database.windows.net",
+			"database": "azureprojectdbfaiz",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "faiz",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY1Q0JFQjNGLUM5NUUtNDlEOC1BODA3LUFBMjc5RjU1NUE0Ql9kOWY1ZGZmMi0xNjFhLTRhMWItOTRlZS1hYTdhNDE2MjM4OTIiDQp9"
+		}
+	}
+}
