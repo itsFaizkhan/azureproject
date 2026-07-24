@@ -80,6 +80,8 @@
 			{
 				"name": "last_cdc",
 				"type": "Lookup",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
@@ -105,7 +107,7 @@
 						"referenceName": "Json_dynamic",
 						"type": "DatasetReference",
 						"parameters": {
-							"cotainer": "bronze",
+							"container": "bronze",
 							"folder": "cdc",
 							"file": "cdc.json"
 						}
@@ -116,6 +118,8 @@
 			{
 				"name": "Set variable1",
 				"type": "SetVariable",
+				"state": "Inactive",
+				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
 					"secureOutput": false,
